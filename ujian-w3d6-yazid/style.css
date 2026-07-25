@@ -1,0 +1,85 @@
+/* (Memberikan Warna pad Background dari konten tersebut,
+dan memberikan jarak padding pada konten 
+[antara konten dan border]) */
+.kartu-info {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#judul-soal-2 {
+  color: blueviolet;
+}
+
+.kegiatan {
+  font-family: monospace;
+}
+
+.penting {
+  background-color: fuchsia;
+  border-radius: 8px;
+}
+
+.kotak-error {
+  color: white;
+  background-color: steelblue;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+#soal-4 {
+  width: 150px;
+  height: 80px;
+}
+
+.warna-1 {
+  background-color: cadetblue;
+}
+
+.warna-2 {
+  background-color: #a5a5a5;
+}
+
+.warna-3 {
+  background-color: rgb(25, 3, 204);
+}
+
+.warna-4 {
+  background-color: hsl(70, 75, 80);
+}
+
+.warna-overlay {
+  background-color: rgba(6, 4, 204, 0.7);
+}
+
+.hero {
+  height: 50vh;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-image: url(about-sabers-primitive-dragon-and-elemental-dragon-forms-v0-yxtjojtlotqg1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  color: white;
+}
+
+.kartu-akhir {
+  /* lebar */
+  width: 250px;
+
+  /* jarak antara konten dan border */
+  padding: 20px;
+
+  /* mengatur border/garis luar/pembatas konten */
+  border: 3px solid #2c3e50;
+
+  /* mengatur halaman/jarak antar konten */
+  margin: 30px auto;
+
+  /* Deklarasi terhadap ukuran (diukur dari bordernya, bukan ukuran konten) */
+  box-sizing: border-box;
+}
